@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
+
+body {
+	font-size: 16.5px;
+	font-family: "Exo";
+	background-color: #333;
+	color: white;
+
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+}
+
+div.sidebar {
+	width: 9em;
+	min-width: 9em;
+	margin: 1ex 2ex 1ex 1ex;
+	font-size: 85%;
+	flex-grow: 0;
+}
+div.sidebar ul {
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+div.sidebar h4 {
+	margin: 1em 0 0 0;
+	font-size: 85%;
+	font-weight: bold;
+}
+div.sidebar a {
+	text-decoration: none;
+}
+div.sidebar li {
+	margin-top: 0.5ex;
+	text-indent: -1ex;
+	padding-left: 1ex;
+}
+div.sidebar img {
+	display: block;
+	margin: 1ex;
+}
+
+div.content {
+	margin: 1ex;
+	flex-grow: 1;
+}
+
+a {
+	color: #e69710;
+}
+a:visited {
+	color: #8a7f6c;
+}
+
+figure {
+	display: table;
+	xdisplay: flex;
+	flex-direction: column;
+	margin: 1ex;
+	background: black;
+	padding: 1ex;
+}
+
+figure img {
+	display: block;
+	max-width: 100%;
+	background-color: white;
+}
+
+figcaption {
+	display: table-caption;
+	caption-side: bottom;
+	text-align: center;
+	background: black;
+	color: white;
+	font-size: 80%;
+	font-weight: bold;
+	padding: 1ex;
+	padding-top: 0;
+}
+
+.float-right {
+	clear: both;
+	float: right;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+table.wikitable,
+table.wikitable>*>tr>th,
+table.wikitable>*>tr>td,
+pre {
+	color: #fff;
+	background-color: #4c4c4c;
+}
+table.wikitable {
+	background-color: #888;
+}
+table.wikitable>*>tr>th {
+	background-color: #595959;
+}
+table.wikitable th,
+table.wikitable td {
+	padding: 0.5ex;
+}
+pre {
+	padding: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #ecb13b;
+}
+
+ul.download li {
+  padding-left: 22px;
+  list-style: none;
+}
+li.source { background: url("images/tux.png") left center no-repeat; }
+li.win { background: url("images/winlogo.png") left center no-repeat; }
+li.music { background: url("images/music.png") left center no-repeat; }
+li.generic { background: url("images/dlicon.png") left center no-repeat; }
+
+/* Main page */
+.no-decorated-links a {
+	text-decoration: none;
+}
+
+/* Dukemaps */
+table.dukemap th,
+table.dukemap-sub th {
+	background-color: #ecb13b36;
+}
+table.dukemap th {
+	font-size: 200%;
+	color: #ecb13b;
+}
