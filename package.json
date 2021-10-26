@@ -1,0 +1,14 @@
+{
+  "name": "www.shikadi.net",
+  "version": "1.0.0",
+  "description": "Content for main http://www.shikadi.net website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Nielsen <malvineous@shikadi.net>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "markdown-it": "^12.2.0"
+  }
+}
