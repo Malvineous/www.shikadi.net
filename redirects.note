@@ -109,16 +109,16 @@ This JSON is copied into S3 via the Console because I'm lazy.
         },
         "Redirect": {
             "HostName": "files.shikadi.net",
-            "ReplaceKeyPrefixWith": "malv/shikadi.net-old/gamemusic/"
+            "ReplaceKeyPrefixWith": "malv/files/shikadi.net-old/gamemusic/"
         }
     },
     {
         "Condition": {
-            "KeyPrefixEquals": "gfx/"
+            "KeyPrefixEquals": "gfx/keen/"
         },
         "Redirect": {
             "HostName": "files.shikadi.net",
-            "ReplaceKeyPrefixWith": "malv/shikadi.net-old/gfx/"
+            "ReplaceKeyPrefixWith": "malv/files/shikadi.net-old/gfx/keen/"
         }
     },
     {
@@ -127,7 +127,7 @@ This JSON is copied into S3 via the Console because I'm lazy.
         },
         "Redirect": {
             "HostName": "files.shikadi.net",
-            "ReplaceKeyPrefixWith": "malv/shikadi.net-old/~matt/"
+            "ReplaceKeyPrefixWith": "malv/files/shikadi.net-old/~matt/"
         }
     },
     {
@@ -136,7 +136,7 @@ This JSON is copied into S3 via the Console because I'm lazy.
         },
         "Redirect": {
             "HostName": "files.shikadi.net",
-            "ReplaceKeyPrefixWith": "malv/shikadi.net-old/opl/"
+            "ReplaceKeyPrefixWith": "malv/files/shikadi.net-old/opl/"
         }
     },
     {
@@ -145,7 +145,7 @@ This JSON is copied into S3 via the Console because I'm lazy.
         },
         "Redirect": {
             "HostName": "files.shikadi.net",
-            "ReplaceKeyPrefixWith": "malv/shikadi.net-old/pckf/"
+            "ReplaceKeyPrefixWith": "malv/files/shikadi.net-old/pckf/"
         }
     }
 ]
