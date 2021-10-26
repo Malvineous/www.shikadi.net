@@ -1,0 +1,151 @@
+Redirects for http://www.shikadi.net
+------------------------------------
+
+This JSON is copied into S3 via the Console because I'm lazy.
+
+[
+    {
+        "Condition": {
+            "KeyPrefixEquals": "ll"
+        },
+        "Redirect": {
+            "HostName": "github.com",
+            "ReplaceKeyPrefixWith": "Malvineous/linuxlist"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "camoto/gamelist/"
+        },
+        "Redirect": {
+            "ReplaceKeyPrefixWith": "camoto/desktop/gamelist/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "camoto/help/studio/getting-started/"
+        },
+        "Redirect": {
+            "ReplaceKeyPrefixWith": "camoto/desktop/help-getting-started/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "camoto/help/studio/new/"
+        },
+        "Redirect": {
+            "ReplaceKeyPrefixWith": "camoto/desktop/help-new/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "camoto/help/studio/getting-started/"
+        },
+        "Redirect": {
+            "ReplaceKeyPrefixWith": "camoto/desktop/help-getting-started/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "camoto/help/archive/new/"
+        },
+        "Redirect": {
+            "ReplaceKeyPrefixWith": "camoto/desktop/help-archive-new/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "camoto/help/archive/new/"
+        },
+        "Redirect": {
+            "ReplaceKeyPrefixWith": "camoto/desktop/help-archive-new/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "camoto/help/build/win32/"
+        },
+        "Redirect": {
+            "ReplaceKeyPrefixWith": "camoto/desktop/help-build-win32/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "camoto/help/unique/"
+        },
+        "Redirect": {
+            "ReplaceKeyPrefixWith": "camoto/unique/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "camoto/manpage/"
+        },
+        "Redirect": {
+            "ReplaceKeyPrefixWith": "camoto/desktop/manpage-"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "camoto/camoto-install-"
+        },
+        "Redirect": {
+            "HostName": "files.shikadi.net",
+            "ReplaceKeyPrefixWith": "camoto/desktop/camoto-install-"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "utils/dro2midi"
+        },
+        "Redirect": {
+            "HostName": "github.com",
+            "ReplaceKeyPrefixWith": "Malvineous/dro2midi"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "gamemusic/"
+        },
+        "Redirect": {
+            "HostName": "files.shikadi.net",
+            "ReplaceKeyPrefixWith": "malv/shikadi.net-old/gamemusic/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "gfx/"
+        },
+        "Redirect": {
+            "HostName": "files.shikadi.net",
+            "ReplaceKeyPrefixWith": "malv/shikadi.net-old/gfx/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "~matt/"
+        },
+        "Redirect": {
+            "HostName": "files.shikadi.net",
+            "ReplaceKeyPrefixWith": "malv/shikadi.net-old/~matt/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "opl/"
+        },
+        "Redirect": {
+            "HostName": "files.shikadi.net",
+            "ReplaceKeyPrefixWith": "malv/shikadi.net-old/opl/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "pckf/"
+        },
+        "Redirect": {
+            "HostName": "files.shikadi.net",
+            "ReplaceKeyPrefixWith": "malv/shikadi.net-old/pckf/"
+        }
+    }
+]
