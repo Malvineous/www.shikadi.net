@@ -6,6 +6,105 @@ This JSON is copied into S3 via the Console because I'm lazy.
 [
     {
         "Condition": {
+            "KeyPrefixEquals": "pics/"
+        },
+        "Redirect": {
+            "HostName": "files.shikadi.net",
+            "ReplaceKeyPrefixWith": "malv/images/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "keen1gfx/"
+        },
+        "Redirect": {
+            "HostName": "files.shikadi.net",
+            "ReplaceKeyPrefixWith": "malv/images/keen1gfx/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "files/"
+        },
+        "Redirect": {
+            "HostName": "files.shikadi.net",
+            "ReplaceKeyPrefixWith": "malv/files/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "wiki/files/moddingwiki/"
+        },
+        "Redirect": {
+            "HostName": "files.shikadi.net",
+            "ReplaceKeyPrefixWith": "moddingwiki/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "wiki/files/keenwiki/"
+        },
+        "Redirect": {
+            "HostName": "files.shikadi.net",
+            "ReplaceKeyPrefixWith": "keenwiki/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "keenwiki/"
+        },
+        "Redirect": {
+            "HostName": "keenwiki.shikadi.net",
+            "ReplaceKeyPrefixWith": "wiki/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "wiki/keen/images/"
+        },
+        "Redirect": {
+            "HostName": "keenwiki.shikadi.net",
+            "ReplaceKeyPrefixWith": "i/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "wiki/keen/"
+        },
+        "Redirect": {
+            "HostName": "keenwiki.shikadi.net",
+            "ReplaceKeyPrefixWith": "w/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "moddingwiki/"
+        },
+        "Redirect": {
+            "HostName": "moddingwiki.shikadi.net",
+            "ReplaceKeyPrefixWith": "wiki/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "wiki/modding/images/"
+        },
+        "Redirect": {
+            "HostName": "moddingwiki.shikadi.net",
+            "ReplaceKeyPrefixWith": "i/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "wiki/modding/"
+        },
+        "Redirect": {
+            "HostName": "moddingwiki.shikadi.net",
+            "ReplaceKeyPrefixWith": "w/"
+        }
+    },
+    {
+        "Condition": {
             "KeyPrefixEquals": "ll"
         },
         "Redirect": {
